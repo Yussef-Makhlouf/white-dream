@@ -725,7 +725,9 @@ h6 {
     color: #666;
     margin-bottom: 30px;
 }
-
+li {
+    list-style: none;
+}
 .btn-primary {
     background: #556B2F;
     border: none;
