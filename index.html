@@ -530,7 +530,10 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
             <div class="col-lg-8 mx-auto wow fadeInUp" data-wow-delay="0.3s">
                 <div class="video-wrapper">
                     <div class="video-container">
-                        <video id="productVideo" class="main-video" src="img/video.mp4" poster="img/bg-no/decore1 (11).png"></video>
+                        <video id="productVideo" class="main-video "  src="img/video.mp4" poster="img/man-poster.png" ></video>
+                        <button class="center-play-btn" aria-label="تشغيل الفيديو">
+                            <i class="fas fa-play"></i>
+                        </button>
                         <div class="video-controls">
                             <div class="control-overlay">
                                 <button class="control-btn play-pause-btn" aria-label="تشغيل/إيقاف">
@@ -561,6 +564,87 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
 <!-- Video Section End -->
 
 <!-- Feature End -->
+<div class="container-xxl py-5" id="offers">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+            <h2 class="display-5 mb-2">عروضنا المميزة</h2>
+            <h3 class="text-muted mb-5 ">اشترِ اثنين واحصل على الثالث مجاناً</h3>
+        </div>
+
+        <div class="row g-4" id="offer-cards" data-wow-delay="0.3s" style="display: flex; flex-wrap: wrap; justify-content: center; text-align: right;">
+            <!-- iPhone 14 Offer -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="offer-card">
+                    <div class="offer-badge">
+                        <span>الثالث مجاناً</span>
+                    </div>
+                    <div class="offer-image">
+                        <img src="img/decore1 (13).avif" alt="iPhone 14">
+                    </div>
+                    <div class="offer-content">
+                        <h3 class="offer-title">عرض آيفون 14</h3>
+                        <div class="offer-details" dir="rtl">
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check-circle"></i> اشترِ جهازين</li>
+                                <li><i class="fas fa-check-circle"></i> احصل على الثالث مجاناً</li>
+                                <li><i class="fas fa-check-circle"></i> ضمان سنة كاملة</li>
+                                <li><i class="fas fa-check-circle"></i> توصيل مجاني</li>
+                            </ul>
+                        </div>
+
+                        <div class="offer-actions">
+                            <a href="https://wa.me/966555192765" class="btn btn-primary rounded-pill">
+                                <i class="fab fa-whatsapp me-2"></i>
+                                اطلب الآن
+                            </a>
+                            <a href="tel:0552264314" class="btn btn-outline-primary rounded-pill">
+                                <i class="fas fa-phone me-2"></i>
+                                اتصل بنا
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- iPad 10th Gen Offer -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="offer-card">
+                    <div class="offer-badge">
+                        <span>الثالث مجاناً</span>
+                    </div>
+                    <div class="offer-image">
+                        <img src="img/decore1 (2).avif" alt="iPad 10th Generation">
+                    </div>
+                    <div class="offer-content">
+                        <h3 class="offer-title">عرض آيباد الجيل العاشر</h3>
+                        <div class="offer-details" dir="rtl">
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check-circle"></i> اشترِ جهازين</li>
+                                <li><i class="fas fa-check-circle"></i> احصل على الثالث مجاناً</li>
+                                <li><i class="fas fa-check-circle"></i> ضمان سنة كاملة</li>
+                                <li><i class="fas fa-check-circle"></i> توصيل مجاني</li>
+                            </ul>
+                        </div>
+
+                        <div class="offer-actions">
+                            <a href="https://wa.me/966555192765" class="btn btn-primary rounded-pill">
+                                <i class="fab fa-whatsapp me-2"></i>
+                                اطلب الآن
+                            </a>
+                            <a href="tel:0552264314" class="btn btn-outline-primary rounded-pill">
+                                <i class="fas fa-phone me-2"></i>
+                                اتصل بنا
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <!-- Product Start -->
 <div class="container-xxl py-5" id="products">
@@ -829,7 +913,7 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
         <div class="branches-map-container">
             <div class="map-wrapper">
                 <div class="saudi-map">
-                    <iframe src="https://visitedplaces.com/embed/?map=saudiArabia&projection=geoMercator&theme=dark-green&water=0&graticule=0&names=1&duration=2000&placeduration=100&slider=0&autoplay=0&autozoom=none&autostep=0&home=EG&places=~SA-01_SA-04_SA-06_SA-03_SA-05_SA-02_SA-14_SA-10_SA-09_SA-11_SA-07_SA-12_SA-08" style="width: 100%; height: 600px;"></iframe>                    
+                    <iframe  title="Saudi Arabia Map" frameborder="0"  scrolling="no" src="https://visitedplaces.com/embed/?map=saudiArabia&projection=geoMercator&theme=dark-green&water=0&graticule=0&names=1&duration=2000&placeduration=100&slider=0&autoplay=0&autozoom=none&autostep=0&home=EG&places=~SA-01_SA-04_SA-06_SA-03_SA-05_SA-02_SA-14_SA-10_SA-09_SA-11_SA-07_SA-12_SA-08" style="width: 100%; height: 400px;"></iframe>                    
                     <div class="branch-marker riyadh" data-branch="riyadh">
                         <div class="marker-dot"></div>
                         <div class="branch-card">
@@ -893,6 +977,90 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
         </div>
     </div>
 </section>
+
+
+<div class="container-xxl py-5" id="certifications">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+            <h2 class="display-5 mb-2"> شهادات الموثوقين</h2>
+            <p class="text-muted mb-5">موثوقون من الجهات الرسمية في المملكة</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <!-- Zakat Button -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="img/Zakat Tax and Customs.png" alt="هيئة الزكاة">
+                        <div class="cert-overlay">
+                            <div class="cert-actions">
+                                <a href="assets/zakat.pdf" download class="cert-link download-btn">
+                                    <i class="fas fa-download"></i>
+                                    <span class="tooltip">تحميل الشهادة</span>
+                                </a>
+                                <a href="assets/zakat.pdf" target="_blank" class="cert-link view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    <span class="tooltip">عرض التفاصيل</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <h4 class="text-center mt-3">هيئة الزكاة والضريبة والجمارك</h4>
+                        <div class="cert-badge">شهادة معتمدة</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Commercial Register -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="img/commercel.jpg" alt="السجل التجاري">
+                        <div class="cert-overlay">
+                            <div class="cert-actions">
+                                <a href="assets/commercal-white-dream.pdf" download class="cert-link download-btn">
+                                    <i class="fas fa-download"></i>
+                                    <span class="tooltip">تحميل السجل</span>
+                                </a>
+                                <a href="assets/commercal-white-dream.pdf" target="_blank" class="cert-link view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    <span class="tooltip">عرض التفاصيل</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <h4 class="text-center mt-3">السجل التجاري</h4>
+                        <div class="cert-badge">موثق رسمياً</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Maroof -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="cert-card">
+                    <div class="cert-image">
+                        <img src="img/maroof.svg" alt="منصة معروف">
+                        <div class="cert-overlay">
+                            <div class="cert-actions">
+                                <a href="#" class="cert-link view-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <span class="tooltip">زيارة معروف</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-content">
+                        <h4 class="text-center mt-3">منصة معروف</h4>
+                        <div class="cert-badge">متجر موثق</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -1003,8 +1171,11 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
                                         <i class="fab fa-twitter"></i>
                                     </a>
                                     <a href="https://www.tiktok.com/@white_dream0000" class="social-link-modern">
-                                        <i class="fab fa-tiktok"></i>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                                            <path fill="currentColor" d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/>
+                                        </svg>
                                     </a>
+                                    
                                 </div>
                             </div>
                         </div>
