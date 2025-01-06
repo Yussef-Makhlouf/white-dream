@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Sitemap: https://whitedream.org/sitemap.xml
+
+# Block access to admin areas
+Disallow: /wp-admin/
+Disallow: /admin/
+Disallow: /administrator/
+
+# Block access to specific file types
+Disallow: /*.php$
+Disallow: /*.sql$
+Disallow: /*.log$
+
+# Block access to sensitive directories
+Disallow: /includes/
+Disallow: /tmp/
+Disallow: /cache/
+
+# Allow search engines to access static assets
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.pdf$
